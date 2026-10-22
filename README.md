@@ -2,7 +2,7 @@
 
 Repository: https://github.com/Zeppelin567/ibm-spacex-capstone
 
-IBM Applied Data Science Capstone project prepared for Yifan Chen with AI assistance. All reported statistics come from executed code. The course target includes successful ocean outcomes, which do not necessarily mean recovery suitable for reuse.
+IBM Applied Data Science Capstone project. All reported statistics come from executed code. The course target includes successful ocean outcomes, which do not necessarily mean recovery suitable for reuse.
 
 ## Files
 
