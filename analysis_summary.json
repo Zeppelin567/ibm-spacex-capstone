@@ -1,0 +1,200 @@
+{
+  "n": 90,
+  "successes": 60,
+  "success_rate": 0.6666666666666666,
+  "site": [
+    {
+      "LaunchSite": "CCAFS SLC 40",
+      "mean": 0.6,
+      "count": 55,
+      "sum": 33
+    },
+    {
+      "LaunchSite": "KSC LC 39A",
+      "mean": 0.7727272727272727,
+      "count": 22,
+      "sum": 17
+    },
+    {
+      "LaunchSite": "VAFB SLC 4E",
+      "mean": 0.7692307692307693,
+      "count": 13,
+      "sum": 10
+    }
+  ],
+  "year": [
+    {
+      "Year": 2010,
+      "mean": 0.0,
+      "count": 1,
+      "sum": 0
+    },
+    {
+      "Year": 2012,
+      "mean": 0.0,
+      "count": 1,
+      "sum": 0
+    },
+    {
+      "Year": 2013,
+      "mean": 0.0,
+      "count": 3,
+      "sum": 0
+    },
+    {
+      "Year": 2014,
+      "mean": 0.3333333333333333,
+      "count": 6,
+      "sum": 2
+    },
+    {
+      "Year": 2015,
+      "mean": 0.3333333333333333,
+      "count": 6,
+      "sum": 2
+    },
+    {
+      "Year": 2016,
+      "mean": 0.625,
+      "count": 8,
+      "sum": 5
+    },
+    {
+      "Year": 2017,
+      "mean": 0.8333333333333334,
+      "count": 18,
+      "sum": 15
+    },
+    {
+      "Year": 2018,
+      "mean": 0.6111111111111112,
+      "count": 18,
+      "sum": 11
+    },
+    {
+      "Year": 2019,
+      "mean": 0.9,
+      "count": 10,
+      "sum": 9
+    },
+    {
+      "Year": 2020,
+      "mean": 0.8421052631578947,
+      "count": 19,
+      "sum": 16
+    }
+  ],
+  "orbit": [
+    {
+      "Orbit": "SO",
+      "mean": 0.0,
+      "count": 1
+    },
+    {
+      "Orbit": "GTO",
+      "mean": 0.5185185185185185,
+      "count": 27
+    },
+    {
+      "Orbit": "ISS",
+      "mean": 0.6190476190476191,
+      "count": 21
+    },
+    {
+      "Orbit": "MEO",
+      "mean": 0.6666666666666666,
+      "count": 3
+    },
+    {
+      "Orbit": "PO",
+      "mean": 0.6666666666666666,
+      "count": 9
+    },
+    {
+      "Orbit": "LEO",
+      "mean": 0.7142857142857143,
+      "count": 7
+    },
+    {
+      "Orbit": "VLEO",
+      "mean": 0.8571428571428571,
+      "count": 14
+    },
+    {
+      "Orbit": "ES-L1",
+      "mean": 1.0,
+      "count": 1
+    },
+    {
+      "Orbit": "GEO",
+      "mean": 1.0,
+      "count": 1
+    },
+    {
+      "Orbit": "HEO",
+      "mean": 1.0,
+      "count": 1
+    },
+    {
+      "Orbit": "SSO",
+      "mean": 1.0,
+      "count": 5
+    }
+  ],
+  "model_results": [
+    {
+      "Model": "Decision tree",
+      "CV accuracy": 0.903809523809524,
+      "CV std": 0.05193751696927992,
+      "Test accuracy": 0.8333333333333334,
+      "Balanced accuracy": 0.75,
+      "F1": 0.8888888888888888,
+      "Parameters": "{'model__max_depth': 3, 'model__min_samples_leaf': 4}"
+    },
+    {
+      "Model": "KNN",
+      "CV accuracy": 0.8914285714285715,
+      "CV std": 0.08961494854245902,
+      "Test accuracy": 0.6666666666666666,
+      "Balanced accuracy": 0.6666666666666666,
+      "F1": 0.7272727272727273,
+      "Parameters": "{'model__n_neighbors': 3, 'model__p': 1, 'model__weights': 'uniform'}"
+    },
+    {
+      "Model": "SVM",
+      "CV accuracy": 0.862857142857143,
+      "CV std": 0.057569833370313954,
+      "Test accuracy": 0.7777777777777778,
+      "Balanced accuracy": 0.7083333333333333,
+      "F1": 0.8461538461538461,
+      "Parameters": "{'model__C': 10, 'model__gamma': 0.1, 'model__kernel': 'rbf'}"
+    },
+    {
+      "Model": "Logistic regression",
+      "CV accuracy": 0.8361904761904763,
+      "CV std": 0.09752492558885198,
+      "Test accuracy": 0.8333333333333334,
+      "Balanced accuracy": 0.75,
+      "F1": 0.8888888888888888,
+      "Parameters": "{'model__C': 1}"
+    }
+  ],
+  "best_model": "Decision tree",
+  "confusion_matrix": [
+    [
+      3,
+      3
+    ],
+    [
+      0,
+      12
+    ]
+  ],
+  "proximity_km": {
+    "Coastline": 0.937,
+    "Nearby road": 0.182
+  },
+  "web_records": 121,
+  "test_rows": 18,
+  "test_successes": 12
+}
